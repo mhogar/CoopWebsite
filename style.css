@@ -1,0 +1,23 @@
+#camis_collapse_image
+{
+	background-image: url("imgs/test.jpg");
+	width: 100%;
+	height: 500px;
+}
+
+#camis_collapse_btn
+{
+	margin: auto;
+}
+
+.work_term_header
+{
+	width: 18rem;
+	background-color: #cccccc;
+}
+
+.work_term_header:hover
+{
+	background-color: #aaaaaa;
+	cursor: pointer;
+}

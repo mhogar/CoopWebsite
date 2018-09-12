@@ -24,8 +24,6 @@
 	margin-bottom: 10px;
 }
 
-/*******************************************************************/
-
 .section
 {
 	margin-top: 50px;
@@ -54,6 +52,11 @@
 	box-shadow: 3px 3px 15px #aaa;
 }
 
+.section_header:hover
+{
+	cursor: pointer;
+}
+
 .section_header_v1
 {
 	background-color: #3d87f7;
@@ -63,8 +66,6 @@
 {
 	background-color: #4aaf38;
 }
-
-/*******************************************************************/
 
 .banner
 {

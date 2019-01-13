@@ -1,129 +1,108 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>Coop Website</title>
+    <title>Work Term 1</title>
   </head>
   <body>
-    <div class="banner" id="title_banner">
-      Work Term 1: Camis
+    <div class="banner">
+      <h1 class="ui inverted header center aligned banner-header">
+        Work Term 1: Camis
+      </h1>
     </div>
-
-    <div class="container-fluid row">
-      <div class="col-2"></div>
-      <div class="col-8" >
-        <br/>
-        <i>(Click the header to expand the section)</i>
-        <div class="section">
-          <div class ="row">
-            <div class="section_header section_header_v1 col-3" data-toggle="collapse" data-target="#abstract_body">
-              Abstract
-            </div>
-          </div>
-          <div class="section_body collapse" id="abstract_body">
-            <p>
-              This website is about my (Ryan Stamp's) first co-op work term: the company, my experience on the job, and most importantly, the goals I had going in and the skills I took away. By reading this website, I hope you, the reader, learn something about my experience at Camis, and hopefully even get inspired to figure out what you might want to take away from your future endeavors.
-            </p>
+    <div class="ui container main-content">
+      <div class="section">
+        <div class="ui raised segments">
+          <div class="ui inverted segment section-header-v1">
+            <h3>Abstract</h3>
           </div>
         </div>
-        <div class="section">
-          <div class ="row">
-            <div class="section_header section_header_v2 col-3" data-toggle="collapse" data-target="#camis_body">
-              About Camis
-            </div>
-          </div>
-          <div class="section_body collapse" id="camis_body">
-            <span class="sub_section_header">Company and Products</span>
-            <p>
-              Camis is a company that makes reservation and accommodation software for campgrounds. Their clients consist of almost every province in Canada and even also have a few American clients. For a full list, visit 
-              <a href="http://goingtocamp.com/">goingtocamp.com.<a/> 
-              Camis’ main product is the reservation software, but also provides hardware and a call centre to clients as well. The software has gone through many versions, from the older “Everest” software to the new Camis 5. The software itself takes many forms and UIs, but the main ones being the desktop applications for in park and call centre use and the website that campers interact with directly.
-            </p>
-
-            <span class="sub_section_header">Locations</span>
-            <p>
-              Camis’ main office is in Guelph, but they also have a few offices in the states, those being in Ann Arbor and Cumberland.
-            </p>
-
-            <span class="sub_section_header">Culture and People</span>
-            <p>
-              Overall Camis has a fantastic culture and atmosphere. It has many company “team building” events that help to balance out the stress that can be present in a working environment. This along with the employees themselves creates a very welcoming environment, well still managing to keep productivity high. Often there will be demos and presentations to show the employees working in a different field what is going on in other places in the company. I found these very informative and interesting and it adds to Camis’ overall company continuity.
-            </p>
+        <div class="content">
+          <p>
+            This website is about my (Ryan Stamp's) first co-op work term: the company, my experience on the job, and most importantly, the goals I had going in and the skills I took away. By reading this website, I hope you, the reader, learn something about my experience at Camis, and hopefully even get inspired to figure out what you might want to take away from your future endeavors.
+          </p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="ui raised segments">
+          <div class="ui inverted segment section-header-v2">
+            <h3>About Camis</h3>
           </div>
         </div>
-        <div class="section">
-          <div class ="row">
-            <div class="section_header section_header_v1 col-3" data-toggle="collapse" data-target="#job_body">
-              Job Description
-            </div>
-          </div>
-          <div class="section_body collapse" id="job_body">
-            <span class="sub_section_header">Job Overview</span>
-            <p>
-              My job at Camis consisted mostly of fixing bugs in the older Everest software, in a verity of the UIs. My job also consisted of a large amount of configuration for the confirmation letters and business rules for the various parks, especially during the month of July. In this month we worked hard for Parks Canada’s upcoming release, where a lot of new campgrounds were added to the software. Most of the fixes took place in the code, written primarily in C#, but I occasionally had to dive into the database to fix SQL related issues and even writing a stored procedure from scratch towards the end.
-            </p>
-            <span class="sub_section_header">Required Skills</span>
-            <p>
-              Overall, I feel that not a lot of prior skills were required, and most of the skills would be learnt on the job. The software itself is mostly written in C#, however, only a general knowledge of coding is really required to get started. I only occasionally touched the HTML, CSS, and JavaScript of the website, as its backend is also C#. SQL did play a significant role in a portion of my tickets, and I myself did not have a lot of prior experience with it going in, but I was still able to pick it up fairly quickly. In terms of specific software, Visual Studio, Team Foundation Server (TFS), and SQL Server played a large role. However, when it comes to software tools, every company is very different and having prior experience with these specific tools is rare and often not required. Camis in specific made the onboarding process and learning of these tools very straightforward and comforting and I found myself using these tools effectively in no time.
-            </p>
-            <span class="sub_section_header">Rememberable Project</span>
-            <p>
-              One of my favourite projects was when I integrated PureCloud into the software. PureCloud is a software service made by Genesys that Camis was implementing to manage call centre calls and record them, switching from an older software solution. My job was to implement the API into Everest to pause and resume recording during credit card inputs. This required me to learn a new API and integrate third-party software into another company’s software, something I have had no experience with before. This was a lengthy project, but I really enjoyed creating a whole new feature from start to finish. Sadly, my coop term ended before I could see the result of the project in use (for better or for worse), but I am still very happy with the finished project.
-            </p>
-          </div> 
+        <div class="content">
+         <span class="sub_section_header">Company and Products</span>
+          <p>
+            Camis is a company that makes reservation and accommodation software for campgrounds. Their clients consist of almost every province in Canada and even also have a few American clients. For a full list, visit 
+            <a href="http://goingtocamp.com/">goingtocamp.com.</a> 
+            Camis' main product is the reservation software, but also provides hardware and a call centre to clients as well. The software has gone through many versions, from the older "Everest" software to the new Camis 5. The software itself takes many forms and UIs, but the main ones being the desktop applications for in park and call centre use and the website that campers interact with directly.
+          </p>
+          <span class="sub_section_header">Locations</span>
+          <p>
+            Camis' main office is in Guelph, but they also have a few offices in the states, those being in Ann Arbor and Cumberland.
+          </p>
+          <span class="sub_section_header">Culture and People</span>
+          <p>
+            Overall Camis has a fantastic culture and atmosphere. It has many company "team building" events that help to balance out the stress that can be present in a working environment. This along with the employees themselves creates a very welcoming environment, well still managing to keep productivity high. Often there will be demos and presentations to show the employees working in a different field what is going on in other places in the company. I found these very informative and interesting and it adds to Camis' overall company continuity.
+          </p>
         </div>
-        <div class="section">
-          <div class ="row">
-            <div class="section_header section_header_v2 col-3" data-toggle="collapse" data-target="#goals_body">
-              Learning Goals
-            </div>
+      </div>
+      <div class="section">
+        <div class="ui raised segments">
+          <div class="ui inverted segment section-header-v1">
+            <h3>Job Description</h3>
           </div>
-          <div class="section_body collapse" id="goals_body">
-            <span class="sub_section_header">Learning Goal 1</span>
-            <p>
-              My first goal of this work term was to improve my debugging skills. This goal was mainly inspired by the majority of my work, which consisted of debugging. Through the use of Visual Studio’s vast toolset of debugging options, I quickly found myself decreasing the time I spent of tickets, even occasionally completing them under their estimate. Although this goal was created mostly for this job, the benefits of it extend well beyond it. Debugging is an essential part of any programming career and the efficiency with debugging I developed through my time at Camis will in no doubt be of use far into the future.
-            </p>
-            <span class="sub_section_header">Learning Goal 2</span>
-            <p>
-              My second goal was to gain experience with the many new software tools I used at Camis, primary TFS and SQL Server. Of all my goals, this was the one I felt I completed the least. Although I did get much better at using the software, I only really got to use the features that were part of my specific task. For example, I did get familiar with Visual Studio’s TFS integration, but I never touched the actual TFS server itself or got to learn all the features it was capable of. I did mention in a previous section that I felt like experience with very specific software is rarely a requirement for jobs, however, it still is experience and can be useful nevertheless. In the future, to better complete this type of goal, I will make sure to go out of my way to better learn the software as a whole and not just learn the few set of features that I would use for my specific tasks.
-            </p>
-            <span class="sub_section_header">Learning Goal 3</span>
-            <p>
-              My final goal was to learn about the development cycle and how the many roles at Camis come together to make a unified product. This goal, unlike the other two, was probably the only one that wasn’t job oriented. This was the main thing I wanted to get out of my coop experience in the first place, as I felt it was a very important thing to have knowledge about in any job. To make sure I completed this goal, I went out of my way to request a learning workshop to learn about the many roles at Camis. This workshop proved very useful and my coop experience in general at Camis taught me a lot about the development cycle; from getting issues, to implementing solutions, to testing and deploying. Of course, there are many non-development roles that play a large part in any company, and from the workshop, I learned a lot about them as well. I feel very satisfied with the amount I learned on this topic and am looking forward to moving on armed with this greater understanding of team structure and development patterns.
-            </p>
-          </div> 
         </div>
-        <div class="section">
-          <div class ="row">
-            <div class="section_header section_header_v1 col-3" data-toggle="collapse" data-target="#conclusion_body">
-              Conclusion
-            </div>
+        <div class="content">
+          <span class="sub_section_header">Job Overview</span>
+          <p>
+            My job at Camis consisted mostly of fixing bugs in the older Everest software, in a verity of the UIs. My job also consisted of a large amount of configuration for the confirmation letters and business rules for the various parks, especially during the month of July. In this month we worked hard for Parks Canada's upcoming release, where a lot of new campgrounds were added to the software. Most of the fixes took place in the code, written primarily in C#, but I occasionally had to dive into the database to fix SQL related issues and even writing a stored procedure from scratch towards the end.
+          </p>
+          <span class="sub_section_header">Required Skills</span>
+          <p>
+            Overall, I feel that not a lot of prior skills were required, and most of the skills would be learnt on the job. The software itself is mostly written in C#, however, only a general knowledge of coding is really required to get started. I only occasionally touched the HTML, CSS, and JavaScript of the website, as its backend is also C#. SQL did play a significant role in a portion of my tickets, and I myself did not have a lot of prior experience with it going in, but I was still able to pick it up fairly quickly. In terms of specific software, Visual Studio, Team Foundation Server (TFS), and SQL Server played a large role. However, when it comes to software tools, every company is very different and having prior experience with these specific tools is rare and often not required. Camis in specific made the onboarding process and learning of these tools very straightforward and comforting and I found myself using these tools effectively in no time.
+          </p>
+          <span class="sub_section_header">Rememberable Project</span>
+          <p>
+            One of my favourite projects was when I integrated PureCloud into the software. PureCloud is a software service made by Genesys that Camis was implementing to manage call centre calls and record them, switching from an older software solution. My job was to implement the API into Everest to pause and resume recording during credit card inputs. This required me to learn a new API and integrate third-party software into another company's software, something I have had no experience with before. This was a lengthy project, but I really enjoyed creating a whole new feature from start to finish. Sadly, my coop term ended before I could see the result of the project in use (for better or for worse), but I am still very happy with the finished project.
+          </p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="ui raised segments">
+          <div class="ui inverted segment section-header-v2">
+            <h3>Learning Goals</h3>
           </div>
-          <div class="section_body collapse" id="conclusion_body">
-            <p>
-              For a first work term, or any work term really, Camis was a great experience. I was nervous that I would have a hard time fitting into a work environment, but I was pleasantly surprised with how well I did and how much I learned. Through the completion of my goals and the many skills I learned and improved through the verity of tasks I worked on daily, this work term yielded great experience that will in no doubt be of much use going forward.
-            </p>
+        </div>
+        <div class="content">
+          <span class="sub_section_header">Learning Goal 1</span>
+          <p>
+            My first goal of this work term was to improve my debugging skills. This goal was mainly inspired by the majority of my work, which consisted of debugging. Through the use of Visual Studio's vast toolset of debugging options, I quickly found myself decreasing the time I spent of tickets, even occasionally completing them under their estimate. Although this goal was created mostly for this job, the benefits of it extend well beyond it. Debugging is an essential part of any programming career and the efficiency with debugging I developed through my time at Camis will in no doubt be of use far into the future.
+          </p>
+          <span class="sub_section_header">Learning Goal 2</span>
+          <p>
+            My second goal was to gain experience with the many new software tools I used at Camis, primary TFS and SQL Server. Of all my goals, this was the one I felt I completed the least. Although I did get much better at using the software, I only really got to use the features that were part of my specific task. For example, I did get familiar with Visual Studio's TFS integration, but I never touched the actual TFS server itself or got to learn all the features it was capable of. I did mention in a previous section that I felt like experience with very specific software is rarely a requirement for jobs, however, it still is experience and can be useful nevertheless. In the future, to better complete this type of goal, I will make sure to go out of my way to better learn the software as a whole and not just learn the few set of features that I would use for my specific tasks.
+          </p>
+          <span class="sub_section_header">Learning Goal 3</span>
+          <p>
+            My final goal was to learn about the development cycle and how the many roles at Camis come together to make a unified product. This goal, unlike the other two, was probably the only one that wasn't job oriented. This was the main thing I wanted to get out of my coop experience in the first place, as I felt it was a very important thing to have knowledge about in any job. To make sure I completed this goal, I went out of my way to request a learning workshop to learn about the many roles at Camis. This workshop proved very useful and my coop experience in general at Camis taught me a lot about the development cycle; from getting issues, to implementing solutions, to testing and deploying. Of course, there are many non-development roles that play a large part in any company, and from the workshop, I learned a lot about them as well. I feel very satisfied with the amount I learned on this topic and am looking forward to moving on armed with this greater understanding of team structure and development patterns.
+          </p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="ui raised segments">
+          <div class="ui inverted segment section-header-v1">
+            <h3>Conclusion</h3>
           </div>
+        </div>
+        <div class="content">
+          <p>
+            For a first work term, or any work term really, Camis was a great experience. I was nervous that I would have a hard time fitting into a work environment, but I was pleasantly surprised with how well I did and how much I learned. Through the completion of my goals and the many skills I learned and improved through the verity of tasks I worked on daily, this work term yielded great experience that will in no doubt be of much use going forward.
+          </p>
         </div>
       </div>
     </div>
-
-    <br/>
-    <br/>
-
     <div class="banner"></div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
